@@ -1,0 +1,104 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+background:white;
+    border: 0px solid black;
+    margin: 0px
+}
+
+.class img {
+    float: left;
+    height: 2px;
+   
+}
+
+.division {
+    position: -webkit-sticky;
+    top: 0px;
+    position: sticky;
+    border: 1px groove black;
+    background: blue;
+}
+
+.imagen {
+    border: 1px solid black;
+    margin: 15px 0px  1px 100px ;
+    width:500px;
+}
+
+.tabla {
+    float: right;
+    margin-top: 150px;
+margin-right: 160px;
+text-shadow: 3px 2px black;
+}
+
+.tabla a {
+margin: 30px;
+padding: 9px;
+background:rgb(7, 30, 235);
+border-style: inset;
+text-decoration: none;
+color:yellow;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+text-transform: uppercasIe;
+
+}
+
+.titulo1 {
+border: 1px solid black;
+text-align: center;
+outline: invert;
+margin: 10px;
+}
+
+.titulo a {
+    border:4px  black;
+    text-decoration: none;
+    padding: 5px;
+    text-decoration: overline;
+text-shadow: 3px 2px black;
+color: yellow;
+outline:ridge;
+}
+
+.nave a {
+    text-align: left;
+    
+    margin-left: 210px;
+    padding: 3px;
+text-decoration: none;
+    color: blue;
+    text-shadow: 2px 3px lightblue;
+    background: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+.lista a {
+    color: black;
+    background: white;
+    display: inline-block;
+    
+
+}
+
+.minivan {
+    text-align: center;
+    border: 1px solid black;
+text-transform: uppercase;
+}
+
+.minivan p {
+    text-shadow: 3px 2px back;
+    color: black;
+    border: 1px solid black;
+    margin-left: 300px;
+    margin-top: 3px;
+    margin-right: 300px;
+
+}
+
