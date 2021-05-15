@@ -1,26 +1,28 @@
+/* index.html */
+
+
 * {
     margin: 0px;
     padding: 0px;
 }
-
+/* cuerpo */
 body {
-background:white;
+background:whitesmoke;
     border: 0px solid black;
     margin: 0px
 }
 
 .class img {
     float: left;
-    height: 2px;
-   
+    height: 80px;   
 }
 
 .division {
     position: -webkit-sticky;
     top: 0px;
     position: sticky;
-    border: 1px groove black;
-    background: blue;
+    border: 1px groove #fbc531;
+    background: #000000;
 }
 
 .imagen {
@@ -29,76 +31,339 @@ background:white;
     width:500px;
 }
 
+/* menu con estilo  */
 .tabla {
     float: right;
-    margin-top: 150px;
-margin-right: 160px;
-text-shadow: 3px 2px black;
+    margin-top: 260px;
+margin-right: 100px;
 }
 
 .tabla a {
 margin: 30px;
 padding: 9px;
-background:rgb(7, 30, 235);
-border-style: inset;
 text-decoration: none;
-color:yellow;
-font-family:Verdana, Geneva, Tahoma, sans-serif;
+color:white;
+font-family:sans-serif;
 text-transform: uppercasIe;
-
+font-size: 20px;
+border: 3px solid black;
 }
 
-.titulo1 {
-border: 1px solid black;
-text-align: center;
-outline: invert;
-margin: 10px;
+.clase th a {
+	text-align: none;
+	background: black;
 }
+
+.clase a:hover {
+    background: #fbc531;
+}
+
+/* subtitulo */
 
 .titulo a {
-    border:4px  black;
     text-decoration: none;
-    padding: 5px;
-    text-decoration: overline;
-text-shadow: 3px 2px black;
-color: yellow;
-outline:ridge;
+color: black;
 }
 
-.nave a {
-    text-align: left;
-    
-    margin-left: 210px;
-    padding: 3px;
+.titulo {
+    text-align: center;
+    background:#fbc531 ;
+    padding: 10px;
+    font-family: sans-serif;
+}
+
+/* segundo menu */
+
+.enlace {
+    border: 1px solid black;
+}
+
+.enlace a {
+display: inline-block;
 text-decoration: none;
-    color: blue;
-    text-shadow: 2px 3px lightblue;
+padding: 20px;
+color: white;
+font-family: sans-serif;
+font-size: 30px;
+}
+
+
+.enlace a:hover {
+    background: #fbc531;
+}
+
+
+
+.enlace {   
+    margin-left: 5%;
+    margin-right: 5%;
+    text-decoration: none;
+    text-align: center;
+    padding: 0px;
     background: black;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    
 }
-
-.lista a {
-    color: black;
-    background: white;
+ 
+.titulo2 {
+   
+    text-decoration: none;
+    margin:2%;
+    color: #fbc531; 
+    font-family: sans-serif;  
+    margin-bottom: 0.5px;
+    margin-left: 90px;
+    padding-top: 20px;
     display: inline-block;
-    
+    border: 1px solid black;
+    background: black;
 
 }
 
-.minivan {
+
+.desorden {
+    border: 1px solid black;
+    margin-left: 100px;
+    text-decoration: none;
+    margin-right: 1459px;
+    margin-left:90px;
+    background: black;
+    font-size: 20px;
+    padding-top: 9px;
+    padding-left: 20px;
+    padding-bottom: 30PX;
+    font-family: sans-serif;
+}
+
+
+.desorden li {
+    text-decoration: none;
+    padding-left: 6px;
+    
+}
+
+/* tercer menu */
+.clase2 li a {
+    
+    padding: 0px;
+    display: inline-block;
+     text-decoration:none ;
+     color: white;      
+}
+.clase2 video {
+    float: right;
+    margin-right: 360px;
+    width: 900px;
+    margin-right:200px;
+}
+
+
+
+
+
+article {
+border: 1px solid black;
+margin-top: 20%;
+display: block;
+margin-left: 33%;
+margin-right: 50%;
+}
+
+/* primera informacion con imagenes autos */
+
+.titulo3 {
+    text-align: center;
+    margin-left: 25em;
+    color: #fbc531;
+    font-family: sans-serif;
+}
+
+
+.texto p {
     text-align: center;
     border: 1px solid black;
-text-transform: uppercase;
+padding-bottom: 25px ;
+margin-top: 50px ;
+margin-left : 50em;
+display:inline-block;
+padding-top:25px ;
+padding-left: 15px;
+padding-right: 15px;
+font-family: sans-serif;
+background: #000000;
+color: white;
 }
 
-.minivan p {
-    text-shadow: 3px 2px back;
-    color: black;
+.texto img {
+    float: right;
+    margin-right: 15em;
+    padding-bottom: 2em;
+   margin-top: 3em;
+}
+
+
+/* segunda informacion con imagenes minivan */
+
+.segundo {
+    text-align: center;
+    margin-left: 38em;
+    font-family: sans-serif;
+    color: #fbc531 ;
+}
+
+
+.segundo img {
+    float: right;
+margin-right: 15em;
+    height:150px;
+    margin-top: 2em;
+}
+
+.segundo p{
+    padding-top:30px;
+    width: 400px;
+    height: 90px;
     border: 1px solid black;
-    margin-left: 300px;
-    margin-top: 3px;
-    margin-right: 300px;
+    margin-top: 40px;
+    text-align: center;
+   
 
 }
+
+
+
+.hijo {
+    border: 1px solid black;
+    margin-right: 40px;
+    margin-left: 200px;
+    color: white;
+    background: black;
+}
+
+.segundo {
+    text-align: center;
+    margin-left: 38em;
+    font-family: sans-serif;
+    color: #fbc531 ;
+}
+
+/* tercera informacion con imagenes bus cama */
+
+.tercero img {
+    float: right;
+margin-right: 15em;
+    height:150px;
+    margin-top: 2em;
+}
+
+.tercero p{
+    padding-top:30px;
+    width: 400px;
+    height: 90px;
+    border: 1px solid black;
+    margin-top: 40px;
+    text-align: center;
+    font-family: sans-serif ;
+   
+
+}
+
+.hija {
+    border: 1px solid black;
+    margin-right: 40px;
+    margin-left: 800px;
+    color: white;
+    background: black;
+}
+
+.tercero h2 {
+    text-align: center;
+    margin-left: 25em;
+    color: #fbc531;
+    font-family: sans-serif;
+    
+}
+
+/* cuarta informacion con imagenes transporte aereo */
+
+.cuarto img {
+    float: right;
+margin-right: 15em;
+    height:150px;
+    margin-top: 2em;
+}
+
+.cuarto p{
+    padding-top:30px;
+    width: 400px;
+    height: 90px;
+    border: 1px solid black;
+    margin-top: 40px;
+    text-align: center;
+    font-family: sans-serif ;
+   
+
+}
+
+/* pie de pagina */
+
+.mascota {
+    border: 1px solid black;
+    margin-right: 40px;
+    margin-left: 800px;
+    color: white;
+    background: black;
+}
+
+.cuarto h2 {
+    text-align: center;
+    margin-left: 25em;
+    color: #fbc531;
+    font-family: sans-serif;
+}
+
+footer {
+    border: 1px solid black;
+  clear: both;
+  margin-top:100px;
+
+
+}
+
+
+.final h1 {
+    font-family: sans-serif;
+}
+
+
+
+
+/* fin de el index */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

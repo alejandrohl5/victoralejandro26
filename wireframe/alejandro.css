@@ -1,0 +1,57 @@
+/* alejandro.htlm */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+/* cuerpo */
+body {
+background:whitesmoke;
+    border: 0px solid black;
+    margin: 0px
+}
+
+.class img {
+    float: left;
+    height: 80px;   
+}
+
+.division {
+    position: -webkit-sticky;
+    top: 0px;
+    position: sticky;
+    border: 1px groove #fbc531;
+    background: #000000;
+}
+
+.imagen {
+    border: 1px solid black;
+    margin: 15px 0px  1px 100px ;
+    width:500px;
+}
+
+/* menu con estilo  */
+.tabla {
+    float: right;
+    margin-top: 260px;
+margin-right: 100px;
+}
+
+.tabla a {
+margin: 30px;
+padding: 9px;
+text-decoration: none;
+color:white;
+font-family:sans-serif;
+text-transform: uppercasIe;
+font-size: 20px;
+border: 3px solid black;
+}
+
+.clase th a {
+	text-align: none;
+	background: black;
+}
+
+.clase a:hover {
+    background: #fbc531;
+}
