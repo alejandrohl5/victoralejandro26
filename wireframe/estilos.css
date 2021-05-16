@@ -12,13 +12,9 @@ background:whitesmoke;
     margin: 0px
 }
 
-.class img {
-    float: left;
-    height: 80px;   
-}
 
 .division {
-    position: -webkit-sticky;
+  
     top: 0px;
     position: sticky;
     border: 1px groove #fbc531;
@@ -37,7 +33,7 @@ background:whitesmoke;
     margin-top: 260px;
 margin-right: 100px;
 }
-
+   
 .tabla a {
 margin: 30px;
 padding: 9px;
@@ -322,24 +318,57 @@ margin-right: 15em;
 
 footer {
     border: 1px solid black;
-  clear: both;
+  
   margin-top:100px;
-
+  color: white;
+  background: black;
 
 }
 
-
-.final h1 {
-    font-family: sans-serif;
+.imagenfinal1 {
+    border: 1px solid black;
+    margin: 15px 0px  1px 100px ;
+    width:500px;
 }
 
-.colum2 {
+
+.facebook {
+    border: 1px solid black;
+    margin-left: 10em;
+    color: white;
+    
+}
+
+.facebook a{
+    text-decoration: none;
+    color: white;
+}
+
+.facebook p {
+    margin-top : 20px;
+    
+}
+
+.anclaje {
+    border: 1px solid black;
+    margin-left: 20em;
+    color: white;
+}
+
+.anclaje a {
+    text-decoration: none;
+    color: white;
+}
+
+.anclaje p {
+  
+    margin-top: 20px;
+}
+
+.copy {
     text-align: center;
+    color: white;
 }
-
-
-
-
 
 
 
