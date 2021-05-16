@@ -10,12 +10,40 @@ background:whitesmoke;
     margin: 0px
 }
 
-.class img {
-    float: left;
-    height: 80px;   
+/* inicio de encabezado */
+
+.imagen1 {
+    border: 1px solid black;
+    margin: 15px 0px  1px 100px ;
+    width:500px;
 }
 
-.division {
+.tabla1 {
+    float: right;
+    margin-top: 260px;
+margin-right: 100px;
+}
+
+.tabla1 a {
+    margin: 30px;
+    padding: 9px;
+    text-decoration: none;
+    color:white;
+    font-family:sans-serif;
+    text-transform: uppercasIe;
+    font-size: 20px;
+    border: 3px solid black;
+}
+
+.clase26 th a {
+    text-align: none;
+	background: black;
+}
+.clase26 a:hover {
+    background: #fbc531;
+}
+
+.suma {
     position: -webkit-sticky;
     top: 0px;
     position: sticky;
@@ -23,35 +51,44 @@ background:whitesmoke;
     background: #000000;
 }
 
-.imagen {
+.title {
+    text-align: center;
+    background:#fbc531 ;
+    padding: 10px;
+    font-family: sans-serif;
+}
+
+.title a {
+    text-decoration: none;
+    color: black;
+}
+
+/* fin de encabezado */
+
+
+
+/* inicio de la primera parte rutas */
+
+
+.mapageneral {
     border: 1px solid black;
-    margin: 15px 0px  1px 100px ;
-    width:500px;
 }
 
-/* menu con estilo  */
-.tabla {
-    float: right;
-    margin-top: 260px;
-margin-right: 100px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mapa h1 {
+text-align: center;
 }
 
-.tabla a {
-margin: 30px;
-padding: 9px;
-text-decoration: none;
-color:white;
-font-family:sans-serif;
-text-transform: uppercasIe;
-font-size: 20px;
-border: 3px solid black;
-}
-
-.clase th a {
-	text-align: none;
-	background: black;
-}
-
-.clase a:hover {
-    background: #fbc531;
-}
