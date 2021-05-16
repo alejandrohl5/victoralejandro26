@@ -16,7 +16,7 @@ background:whitesmoke;
 .division {
   
     border: 1px groove #fbc531;
-    background: white;
+    background: #000000;
     position: sticky;
     top: 0px;
 }
@@ -28,11 +28,10 @@ background:whitesmoke;
 }
 
 /* menu con estilo  */
-.tabla {
+table {
     float: right;
-    margin-top: 260px;
-margin-right: 100px;
-
+    margin-top: 100px;
+    margin-right: 120px;
 }
    
 .tabla a {
@@ -139,7 +138,7 @@ margin-right: 50%;
 /* menu de la etiqueta aside */
 aside {
    
-    
+    border: 1px solid yellow;
     background: black;
     margin-right: 1470px;
     margin-left: 93px;
@@ -165,9 +164,7 @@ aside {
   margin-left: 6px;
   margin-right: 6px;
   margin-bottom: 20px;
-  color: #fbc531;
-  font-family: sans-serif;
-  font-weight: 50px;
+  color: white;
 }
 /* primera informacion con imagenes autos */
 
@@ -325,59 +322,29 @@ margin-right: 15em;
     font-family: sans-serif;
 }
 
-footer {
-    border: 1px solid black;
-  
-  margin-top:100px;
-  color: white;
-  background: black;
 
+
+
+
+
+
+
+footer {
+    border: 1px solid yellow;
 }
+
+
 
 .imagenfinal1 {
-    border: 1px solid black;
-    margin: 15px 0px  1px 100px ;
-    width:500px;
+    margin-right: 1100px;
+    margin-bottom: 90px;
+
 }
-
-
 .facebook {
     border: 1px solid black;
-    margin-left: 10em;
-    color: white;
-    
 }
 
-.facebook a{
-    text-decoration: none;
-    color: white;
-}
 
-.facebook p {
-    margin-top : 20px;
-    
-}
-
-.anclaje {
-    border: 1px solid black;
-    margin-left: 20em;
-    color: white;
-}
-
-.anclaje a {
-    text-decoration: none;
-    color: white;
-}
-
-.anclaje p {
-  
-    margin-top: 20px;
-}
-
-.copy {
-    text-align: center;
-    color: white;
-}
 
 
 
