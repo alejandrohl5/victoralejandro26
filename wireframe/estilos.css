@@ -15,10 +15,10 @@ background:whitesmoke;
 
 .division {
   
-    top: 0px;
-    position: sticky;
     border: 1px groove #fbc531;
-    background: #000000;
+    background: white;
+    position: sticky;
+    top: 0px;
 }
 
 .imagen {
@@ -32,23 +32,28 @@ background:whitesmoke;
     float: right;
     margin-top: 260px;
 margin-right: 100px;
+
 }
    
 .tabla a {
 margin: 30px;
 padding: 9px;
-text-decoration: none;
 color:white;
 font-family:sans-serif;
-text-transform: uppercasIe;
+
 font-size: 20px;
 border: 3px solid black;
+
 }
 
-.clase th a {
-	text-align: none;
+
+.clase a {
+   color: white;
+	text-decoration: none;
 	background: black;
+
 }
+
 
 .clase a:hover {
     background: #fbc531;
@@ -88,7 +93,11 @@ font-size: 30px;
     background: #fbc531;
 }
 
-
+.navegacion {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+}
 
 .enlace {   
     margin-left: 5%;
@@ -98,43 +107,9 @@ font-size: 30px;
     padding: 0px;
     background: black;
 }
- 
-.titulo2 {
-   
-    text-decoration: none;
-    margin:2%;
-    color: #fbc531; 
-    font-family: sans-serif;  
-    margin-bottom: 0.5px;
-    margin-left: 90px;
-    padding-top: 20px;
-    display: inline-block;
-    border: 1px solid black;
-    background: black;
-
-}
 
 
-.desorden {
-    border: 1px solid black;
-    margin-left: 100px;
-    text-decoration: none;
-    margin-right: 1459px;
-    margin-left:90px;
-    background: black;
-    font-size: 20px;
-    padding-top: 9px;
-    padding-left: 20px;
-    padding-bottom: 30PX;
-    font-family: sans-serif;
-}
 
-
-.desorden li {
-    text-decoration: none;
-    padding-left: 6px;
-    
-}
 
 /* tercer menu */
 .clase2 li a {
@@ -151,10 +126,6 @@ font-size: 30px;
     margin-right:200px;
 }
 
-
-
-
-
 article {
 border: 1px solid black;
 margin-top: 20%;
@@ -163,7 +134,45 @@ margin-left: 33%;
 margin-right: 50%;
 }
 
+
+
+/* menu de la etiqueta aside */
+aside {
+   
+    
+    background: black;
+    margin-right: 1470px;
+    margin-left: 93px;
+    padding: 30px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+ 
+}
+
+
+
+.busca li a {
+    border: 1px solid black;
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    
+
+}
+.titulo2 {
+  
+  margin-left: 6px;
+  margin-right: 6px;
+  margin-bottom: 20px;
+  color: #fbc531;
+  font-family: sans-serif;
+  font-weight: 50px;
+}
 /* primera informacion con imagenes autos */
+
+
+
 
 .titulo3 {
     text-align: center;
@@ -245,7 +254,7 @@ margin-right: 15em;
 
 .tercero img {
     float: right;
-margin-right: 15em;
+    margin-right: 15em;
     height:150px;
     margin-top: 2em;
 }
