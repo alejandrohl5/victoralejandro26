@@ -1,0 +1,49 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+/* cuerpo */
+body {
+background:whitesmoke;
+    border: 0px solid black;
+    margin: 0px
+}
+.tabla {
+    float: right;
+    margin-top: 260px;
+margin-right: 100px;
+}
+   
+.tabla a {
+margin: 30px;
+padding: 9px;
+text-decoration: none;
+color:white;
+font-family:sans-serif;
+text-transform: uppercasIe;
+font-size: 20px;
+border: 3px solid black;
+}
+
+.clase th a {   
+	text-align: none;
+	background: black;
+}
+
+.clase a:hover {
+    background: #fbc531;
+}
+
+/* subtitulo */
+
+.titulo a {
+    text-decoration: none;
+color: black;
+}
+
+.titulo {
+    text-align: center;
+    background:#fbc531 ;
+    padding: 10px;
+    font-family: sans-serif;
+}
