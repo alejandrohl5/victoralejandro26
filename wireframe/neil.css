@@ -71,13 +71,6 @@ table
     margin: 60px 30px 80px 30px;
 }
 
-.ejemplo
-{
-    
-    margin: top right bottom left;
-    margin: 50px 820px 30px 820px;
-}
-
 .destinos
 {
     margin: top right bottom left;
@@ -91,9 +84,63 @@ table
     text-align: left;
     font-size: 50px;
     margin: top right bottom left;
-    margin: 40px 200px 100px 200px;
+    margin: 40px 200px 40px 220px;
     font-family: sans-serif;
     color: #fbc531;
+}
 
+.texto
+{
+    text-align: left;
+    font-size: 20px;
+    margin: top right bottom left;
+    margin: 20px 200px 140px 220px;
+    font-family: sans-serif; 
+}
 
+.ejemplo
+{
+    text-align: left;
+    font-size: 20px;
+    margin: top right bottom left;
+    margin: 20px 200px 100px 50px;
+}
+
+footer 
+{
+    background: black;
+    margin-top: 150px;
+    color: white;
+}
+ 
+.imagenfinal 
+{
+    margin: 15px 0px  1px 100px ;
+    padding-bottom: 30px;
+}
+
+.terminando h2
+{
+    margin-left: 320px;
+    padding-bottom: 15px;
+}
+
+.terminando table 
+{
+    margin-right: 413px;
+}
+
+.papa1 
+{
+    margin-left: 320px;
+}
+
+.papa2 
+{
+    margin-left: 320px;
+}
+
+.fin 
+{
+    text-align: center;
 }
