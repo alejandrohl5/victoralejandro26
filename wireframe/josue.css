@@ -1,0 +1,112 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+table {
+    float: right;
+    margin-top: 100px;
+    margin-right: 120px;
+}
+   
+.tabla a {
+margin: 30px;
+padding: 9px;
+color:white;
+font-family:sans-serif;
+
+font-size: 20px;
+border: 3px solid black;
+
+}
+
+
+.clase a {
+   color: white;
+	text-decoration: none;
+	background: black;
+
+}
+
+
+.clase a:hover {
+    background: #fbc531;
+}
+.navegacion {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+}
+.division {
+  
+    border: 1px groove #fbc531;
+    background: #000000;
+    position: sticky;
+    top: 0px;
+}
+.titulo a {
+    text-decoration: none;
+color: black;
+}
+
+.titulo {
+    text-align: center;
+    background:#fbc531 ;
+    padding: 10px;
+    font-family: sans-serif;
+}
+
+
+.josue {
+    
+    margin-right: 50px;
+  
+}
+
+.josue table {
+    padding-right: 0px;
+padding-left:0px;
+   padding-top: 0px;
+    text-align: center;
+    border: 3px groove black;
+}
+
+.josue th {
+    font-size: 30px;
+    padding: 12px;
+    margin-left: 20px;
+    border: 2px groove rgb(0, 0, 0);
+    color: rgb(105, 26, 26);
+    font-family: sans-serif;
+}
+
+.josue td {
+    font-size: 50px;
+    padding-right: 8px;
+    padding-left: 8px;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    border: 2px groove rgb(0, 0, 0);
+    color: rgb(131, 122, 122);
+    font-family: sans-serif;
+}
+.josue tr {
+    border: 2px groove black;
+}
+
+.linares {
+    font-family: s;
+    font-size: 40px;
+    margin-top: 30px;
+    text-align: center;
+}
+ 
+.imagen { 
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+
+
