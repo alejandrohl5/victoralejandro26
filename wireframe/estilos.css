@@ -140,7 +140,7 @@ margin-right: 50%;
 /* menu de la etiqueta aside */
 aside {
    
-    border: 1px solid yellow;
+    
     background: black;
     margin-right: 1470px;
     margin-left: 93px;
@@ -332,26 +332,48 @@ margin-right: 15em;
 
 
 footer {
-    border: 1px solid yellow;
-    background: blue;
+    
+    background: black;
     margin-top: 150px;
+    color: white;
+}
+ 
+.imagenfinal {
+ 
+    
+    margin: 15px 0px  1px 100px ;
+    padding-bottom: 30px;
 }
 
-
-
-.imagenfinal1 {
-    margin-right: 1100px;
-    margin-bottom: 90px;
+.terminando h2 {
+    
+    margin-left: 320px;
+    padding-bottom: 15px;
 
     
-.imagenfinal {
-    border: 1px solid black;
-    border: 1px solid black;
-    margin: 15px 0px  1px 100px ;
 }
 
+/*pie de pagina */
 
+.terminando table {
+    
+    margin-right: 413px;
+    
+}
 
+.papa1 {
+  
+    margin-left: 320px;
+}
+
+.papa2 {
+ 
+    margin-left: 320px;
+}
+
+.fin {
+    text-align: center;
+}
 /* fin de el index */
 
 
