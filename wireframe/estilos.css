@@ -63,13 +63,15 @@ border: 3px solid black;
 .titulo a {
     text-decoration: none;
 color: black;
+font-size: 20px;
 }
 
 .titulo {
     text-align: center;
     background:#fbc531 ;
-    padding: 10px;
+    padding: 1px;
     font-family: sans-serif;
+
 }
 
 /* segundo menu */
@@ -331,6 +333,8 @@ margin-right: 15em;
 
 footer {
     border: 1px solid yellow;
+    background: blue;
+    margin-top: 150px;
 }
 
 
@@ -339,12 +343,12 @@ footer {
     margin-right: 1100px;
     margin-bottom: 90px;
 
-}
-.facebook {
+    
+.imagenfinal {
     border: 1px solid black;
+    border: 1px solid black;
+    margin: 15px 0px  1px 100px ;
 }
-
-
 
 
 
