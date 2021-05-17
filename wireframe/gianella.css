@@ -1,0 +1,380 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background:whitesmoke;
+        border: 0px solid black;
+        margin: 0px
+    }
+    
+    
+    .division {
+      
+        border: 1px groove #fbc531;
+        background: #000000;
+        position: sticky;
+        top: 0px;
+    }
+    
+    .imagen {
+        border: 1px solid black;
+        margin: 15px 0px  1px 100px ;
+        width:500px;
+    }
+    
+    /* menu con estilo  */
+    table {
+        float: right;
+        margin-top: 100px;
+        margin-right: 120px;
+    }
+       
+    header {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0px;
+    }
+
+    .tabla a {
+    margin: 30px;
+    padding: 9px;
+    color:white;
+    font-family:sans-serif;
+    
+    font-size: 20px;
+    border: 3px solid black;
+    
+    }
+    
+    
+    .clase a {
+       color: white;
+        text-decoration: none;
+        background: black;
+    
+    }
+    
+    
+    .clase a:hover {
+        background: #fbc531;
+    }
+    
+    /* subtitulo */
+    
+    .titulo a {
+        text-decoration: none;
+    color: black;
+    font-size: 20px;
+    }
+    
+    .titulo {
+        text-align: center;
+        background:#fbc531 ;
+        padding: 1px;
+        font-family: sans-serif;    
+    }
+    .trabajando {
+        border: 1px solid black;
+        color:white;
+        background: black;
+        text-decoration: underline;
+        margin-bottom: 40px;
+        margin-left:100px;
+        margin-top: 30px;
+        margin-right: 1080px;
+        padding-left:  40px;
+        padding-right: 20px;
+        text-align: center;
+        padding-top: 18px;
+        padding-bottom: 20px;
+        font-size: 23px;
+        font-family: sans-serif;
+
+    }
+
+    .parrafo1 {
+        font-family: sans-serif;
+        border: 1px solid black;
+        text-align: left;
+        margin-left: 100px;
+        margin-right: 1080px;
+       padding-bottom:20px;
+       padding-left: 20px;
+       padding-right: 10px;
+    }
+
+    .parrafo1 p {
+      font-family: sans-serif;
+        font-size: 25px;
+        margin-top: 30px;
+        text-align: left;
+    } 
+
+    .parrafo2 h2{
+        font-family: sans-serif;
+        font-size: 40px;
+        text-align: left;
+        margin-right: 550px;
+        margin-top: 40px;
+        text-decoration: underline;
+    }
+
+    .parrafo3 h2 {
+        text-decoration: underline;
+        font-size: 40px;
+        margin-top: 40px;
+    }    
+
+    .video {
+        float: right;
+        margin-right: 250px;
+        margin-top: 100px;
+    }
+
+    .contacto {
+       
+        text-align: center;
+        margin-left: 800px;
+        margin-right: 750px;
+        margin-top: 60px;
+        padding-right: 30px;
+        padding-right: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-family: sans-serif;
+        color: white;
+        background: black;
+    }
+
+    form {
+       
+        text-align: center;
+        margin-top: 60px;
+        font-size: 20px;
+    }
+
+    .comentario {
+        
+        margin-top:15px ;
+        margin-left: 70px;
+        font-family: sans-serif;
+    }
+
+    .acepto {
+      
+        margin-left: 40px;
+        font-family: sans-serif;
+    }
+    .boton {
+        border: 1px solid black;
+        color: black;
+        background: rgb(171, 246, 96);
+        font-family: sans-serif;
+        margin-left: 40px;
+    }
+
+    footer {
+    
+        background: black;
+        margin-top: 150px;
+        color: white;
+    }
+     
+    .imagenfinal {
+     
+        
+        margin: 15px 0px  1px 100px ;
+        padding-bottom: 30px;
+    }
+    
+    .terminando h2 {
+        
+        margin-left: 320px;
+        padding-bottom: 15px;
+    
+        
+    }
+    
+    
+    
+    .terminando table {
+        
+        margin-right: 413px;
+        
+        
+    }
+    
+    .papa1 {
+      
+        margin-left: 320px;
+        
+    }
+    
+    .papa2 {
+     
+        margin-left: 320px;
+       
+    }
+    
+    .fin {
+        text-align: center;
+        
+    }
+    
+    .terminando1 a{
+        text-decoration: none;
+        color: white;
+    }
+    .terminando2 a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .papa2 a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .papa1 a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    
+    
+    
+    /* fin de el index */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    footer {
+    
+        background: black;
+        margin-top: 150px;
+        color: white;
+    }
+     
+    .imagenfinal {
+     
+        
+        margin: 15px 0px  1px 100px ;
+        padding-bottom: 30px;
+    }
+    
+    .terminando h2 {
+        
+        margin-left: 320px;
+        padding-bottom: 15px;
+    
+        
+    }
+    
+    
+    
+    .terminando table {
+        
+        margin-right: 413px;
+        
+        
+    }
+    
+    .papa1 {
+      
+        margin-left: 320px;
+        
+    }
+    
+    .papa2 {
+     
+        margin-left: 320px;
+       
+    }
+    
+    .fin {
+        text-align: center;
+        
+    }
+    
+    .terminando1 a{
+        text-decoration: none;
+        color: white;
+    }
+    .terminando2 a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .papa2 a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .papa1 a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    
+    
+    
+    /* fin de el index */
+
+
