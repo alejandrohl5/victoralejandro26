@@ -1,40 +1,45 @@
-* {
-    margin: 0px;
-    padding: 0px;
-}
-/* cuerpo */
-body {
-background:whitesmoke;
-    border: 0px solid black;
-    margin: 0px
-}
-.tabla {
+table {
     float: right;
-    margin-top: 260px;
-margin-right: 100px;
+    margin-top: 100px;
+    margin-right: 120px;
 }
    
 .tabla a {
 margin: 30px;
 padding: 9px;
-text-decoration: none;
 color:white;
 font-family:sans-serif;
-text-transform: uppercasIe;
+
 font-size: 20px;
 border: 3px solid black;
+
 }
 
-.clase th a {   
-	text-align: none;
+
+.clase a {
+   color: white;
+	text-decoration: none;
 	background: black;
 }
+
 
 .clase a:hover {
     background: #fbc531;
 }
 
-/* subtitulo */
+.navegacion {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+}
+
+.division {
+  
+    border: 1px groove #fbc531;
+    background: #000000;
+    position: sticky;
+    top: 0px;
+}
 
 .titulo a {
     text-decoration: none;
