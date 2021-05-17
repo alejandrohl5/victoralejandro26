@@ -105,8 +105,74 @@ padding-left:0px;
     text-align: center;
     margin-top: 20px;
 }
+footer {
+    
+    background: black;
+    margin-top: 150px;
+    color: white;
+}
+ 
+.imagenfinal {
+ 
+    
+    margin: 15px 0px  1px 100px ;
+    padding-bottom: 30px;
+}
+
+.terminando h2 {
+    
+    margin-left: 320px;
+    padding-bottom: 15px;
+
+    
+}
+
+
+
+.terminando table {
+    
+    margin-right: 413px;
+    
+    
+}
+
+.papa1 {
+  
+    margin-left: 320px;
+    
+}
+
+.papa2 {
+ 
+    margin-left: 320px;
+   
+}
+
+.fin {
+    text-align: center;
+    
+}
+
+.terminando1 a{
+    text-decoration: none;
+    color: white;
+}
+.terminando2 a {
+    text-decoration: none;
+    color: white;
+}
+
+.papa2 a {
+    text-decoration: none;
+    color: white;
+}
+
+.papa1 a {
+    text-decoration: none;
+    color: white;
+}
 
 
 
 
-
+/* fin de el index */
