@@ -35,19 +35,23 @@ table
     background: #fbc531;
 }
 
-.navegacion 
-{
+header {
     position: -webkit-sticky;
     position: sticky;
     top: 0px;
 }
 
+
+
 .division 
 {
-    border: 1px groove #fbc531;
+    border: 1px groove #000000;
     background: #000000;
-    position: sticky;
-    top: 0px;
+   
+}
+.division img 
+{
+    margin-left: 50px;
 }
 
 .titulo a 
@@ -116,18 +120,20 @@ p
 footer 
 {
     background: black;
-    margin-top: 150px;
+    margin-top: 100px;
     color: white;
+    border:1px solid black;
 }
  
 .imagenfinal 
 {
     margin: 15px 0px  1px 100px ;
-    padding-bottom: 30px;
+    padding-bottom: 25px;
 }
 
 .terminando h2
-{
+{   
+   
     margin-left: 320px;
     padding-bottom: 15px;
 }
@@ -135,19 +141,44 @@ footer
 .terminando table 
 {
     margin-right: 413px;
+    
 }
 
 .papa1 
 {
     margin-left: 320px;
+
 }
 
 .papa2 
 {
     margin-left: 320px;
+    
+   
 }
+
+.terminando1 a{
+    text-decoration: none;
+    color: white;
+}
+.terminando2 a {
+    text-decoration: none;
+    color: white;
+}
+
+.papa2 a {
+    text-decoration: none;
+    color: white;
+}
+
+.papa1 a {
+    text-decoration: none;
+    color: white;
+}
+
 
 .fin 
 {
     text-align: center;
+    margin-bottom: 4px;
 }
