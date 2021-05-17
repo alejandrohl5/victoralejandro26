@@ -1,54 +1,65 @@
-table {
+* 
+{
+    margin: 0px;
+    padding: 0px;
+}
+table 
+{
     float: right;
     margin-top: 100px;
     margin-right: 120px;
 }
    
-.tabla a {
-margin: 30px;
-padding: 9px;
-color:white;
-font-family:sans-serif;
-
-font-size: 20px;
-border: 3px solid black;
-
+.tabla a 
+{
+    margin: 30px;
+    padding: 9px;
+    color:white;
+    font-family:sans-serif;
+    font-size: 20px;
+    border: 3px solid black;
 }
 
 
-.clase a {
-   color: white;
-	text-decoration: none;
+.clase a 
+{
+    color: white;
+    text-decoration: none;
 	background: black;
 }
 
 
-.clase a:hover {
+.clase a:hover 
+{
     background: #fbc531;
 }
 
-.navegacion {
+.navegacion 
+{
     position: -webkit-sticky;
     position: sticky;
     top: 0px;
 }
 
-.division {
-  
+.division 
+{
     border: 1px groove #fbc531;
     background: #000000;
     position: sticky;
     top: 0px;
 }
 
-.titulo a {
+.titulo a 
+{
     text-decoration: none;
-color: black;
+    color: black;
 }
 
-.titulo {
+.titulo 
+{
     text-align: center;
     background:#fbc531 ;
-    padding: 10px;
+    padding: 1px;
     font-family: sans-serif;
+    font-size: 10px;
 }
