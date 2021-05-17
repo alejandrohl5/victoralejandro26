@@ -63,3 +63,37 @@ table
     font-family: sans-serif;
     font-size: 10px;
 }
+
+.centrado
+{
+    text-align: center;
+    margin: top right bottom left;
+    margin: 60px 30px 80px 30px;
+}
+
+.ejemplo
+{
+    
+    margin: top right bottom left;
+    margin: 50px 820px 30px 820px;
+}
+
+.destinos
+{
+    margin: top right bottom left;
+    margin: 40px 200px 100px 200px;
+    font-size: 90px;
+    font-family: sans-serif;
+}
+
+.provincia
+{
+    text-align: left;
+    font-size: 50px;
+    margin: top right bottom left;
+    margin: 40px 200px 100px 200px;
+    font-family: sans-serif;
+    color: #fbc531;
+
+
+}
