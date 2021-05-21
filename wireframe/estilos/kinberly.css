@@ -1,0 +1,255 @@
+/* alejandro.htlm */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+/* cuerpo */
+body {
+background:whitesmoke;
+    border: 0px solid black;
+    margin: 0px;
+}
+
+.division {
+  
+    border: 1px groove #fbc531;
+    background: #000000;
+    position: sticky;
+    top: 0px;
+}
+
+.imagen {
+    border: 1px solid black;
+    margin: 15px 0px  1px 100px ;
+    width:500px;
+}
+
+/* menu con estilo  */
+table {
+    float: right;
+    margin-top: 100px;
+    margin-right: 120px;
+}
+   
+.tabla a {
+margin: 30px;
+padding: 9px;
+color:white;
+font-family:sans-serif;
+
+font-size: 20px;
+border: 3px solid black;
+
+}
+
+header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+}
+
+
+.clase a {
+   color: white;
+	text-decoration: none;
+	background: black;
+
+}
+
+
+.clase a:hover {
+    background: #fbc531;
+}
+
+/* subtitulo */
+
+.titulo a {
+    text-decoration: none;
+color: black;
+font-size: 20px;
+}
+
+.titulo {
+    text-align: center;
+    background:#fbc531 ;
+    padding: 1px;
+    font-family: sans-serif;
+
+}
+
+
+.ruta1 {
+    text-align: center;
+    font-size: 25px ;
+    font-family: sans-serif;
+    
+}
+
+
+.ruta2 h2 {
+   
+    margin-left: 100px;
+    margin-right: 1200px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    
+}
+.iframe1 {
+  
+    margin-left: 100px;
+}
+
+.ruta3 {
+    float: right;
+}
+
+.ruta3 h2 {
+   
+    margin-left: 100px;
+    margin-right: 180px;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-bottom: 30px;
+    text-align: center;
+
+    
+    font-size: 30px;
+    font-family: sans-serif;
+
+}
+
+.iframe2 {
+    
+margin-right: 20px;
+margin-left: 90px;
+}
+
+.sedes h1 {
+   
+    text-align: center;
+    margin-top: 40px;
+    font-family: sans-serif;
+    font-size: 50px ;
+}
+
+.tingo {
+    float: right;
+    margin-bottom: 50px;
+   
+    margin-right: 400px;
+    font-size: 25px;
+}
+.juan {
+    margin-left: 400px;
+   
+    font-size: 25px;
+}
+
+.todo2 {
+   
+    margin-top: 100px;
+    margin-right: 425px;
+
+}
+.tarapoto {
+    float: right;
+    
+    font-size: 20px;
+    font-family: sans-serif;
+    
+}
+
+.tocache {
+    margin-left: 400px;
+    margin-bottom: 50px;
+   font-size: 20px;
+   font-family: sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    
+    background: black;
+    margin-top: 150px;
+    color: white;
+}
+ 
+.imagenfinal {
+ 
+    
+    margin: 15px 0px  1px 100px ;
+    padding-bottom: 30px;
+}
+
+.terminando h2 {
+    
+    margin-left: 320px;
+    padding-bottom: 15px;
+
+    
+}
+
+
+
+.terminando table {
+    
+    margin-right: 413px;
+    
+    
+}
+
+.papa1 {
+  
+    margin-left: 320px;
+    
+}
+
+.papa2 {
+ 
+    margin-left: 320px;
+   
+}
+
+.fin {
+    text-align: center;
+    color: white;
+    
+}
+
+.terminando1 a{
+    text-decoration: none;
+    color: white;
+}
+.terminando2 a {
+    text-decoration: none;
+    color: white;
+}
+
+.papa2 a {
+    text-decoration: none;
+    color: white;
+}
+
+.papa1 a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+/* fin de el index */
