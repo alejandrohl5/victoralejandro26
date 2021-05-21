@@ -35,14 +35,6 @@ table
     background: #fbc531;
 }
 
-header {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0px;
-}
-
-
-
 .division 
 {
     border: 1px groove #000000;
@@ -110,6 +102,7 @@ header {
     margin: top right bottom left;
     margin: 20px 200px 100px 50px;
 }
+
 p 
 {
     margin-bottom: 30px;
