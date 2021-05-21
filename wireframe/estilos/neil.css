@@ -175,3 +175,13 @@ footer
     text-align: center;
     margin-bottom: 4px;
 }
+
+.imagen
+{
+    border-radius: 50px 50px 0px 0px;
+}
+
+.imagenpie
+{
+    border-radius: 0px 0px 50px 50px;
+}
