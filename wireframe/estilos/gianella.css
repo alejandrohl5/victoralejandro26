@@ -31,11 +31,6 @@ body {
         margin-right: 120px;
     }
        
-    header {
-        position: -webkit-sticky;
-        position: sticky;
-        top: 0px;
-    }
 
     .tabla a {
     margin: 30px;
