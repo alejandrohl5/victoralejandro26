@@ -42,12 +42,6 @@ border: 3px solid black;
 
 }
 
-header {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0px;
-}
-
 
 .clase a {
    color: white;
