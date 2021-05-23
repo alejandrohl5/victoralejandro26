@@ -46,19 +46,18 @@ table
     margin-left: 50px;
 }
 
-.titulo a 
-{
+.titulo a {
     text-decoration: none;
-    color: black;
+color: black;
+font-size: 20px;
 }
 
-.titulo 
-{
+.titulo {
     text-align: center;
     background:#fbc531 ;
     padding: 1px;
     font-family: sans-serif;
-    font-size: 10px;
+
 }
 
 .centrado
