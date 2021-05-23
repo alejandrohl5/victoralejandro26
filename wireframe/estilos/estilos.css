@@ -35,16 +35,16 @@ table {
 }
    
 .tabla a {
-margin: 30px;
-padding: 9px;
-color:white;
-font-family:sans-serif;
-
-font-size: 20px;
-border: 3px solid black;
-
-}
-
+    margin: 30px;
+    padding: 9px;
+    color:white;
+    font-family:sans-serif;
+    
+    font-size: 20px;
+    border: 3px solid black;
+    
+    }
+    
 
 .clase a {
    color: white;
