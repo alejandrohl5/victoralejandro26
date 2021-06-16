@@ -351,9 +351,24 @@ opacity: 1;
     }
     
     
+    /*estilo en js*/
+    .registro_js{
+        color: black;
+        font-size: 20px;
+        font-family: sans-serif;
+
+    }
     
-    
-    /* fin de el index */
+    .footer_de_jv{
+        text-decoration: none;
+        border-bottom: 2px inset rgb(190, 182, 182);
+        border-right: 2px inset rgb(189, 182, 182);
+        padding: 5px;
+        font-family: sans-serif;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    /* fin de la pag de gianella*/
 
 
 

@@ -90,12 +90,37 @@ inputs.forEach((input) =>{
 });
 
 formulario.addEventListener('submit',(e) => {
-e.preventDefault();
+	e.preventDefault();
+	
+		if(campos.nombre && campos.correo){
+			formulario.reset();
+		}
+	
+	});
+	
 
-	if(campos.nombree && campos.correo){
-		formulario.reset();
-	}
 
-});
+ function enviar() 
+ {
+	swal.fire ({
+		title:'EMPRESA DE TRANSPORTE GRUPO TOCSAC',
+	
+		html:'<b class="registro_js">Gracias por Registrarse</b>',
+		icon: 'success',
+		background:'white',
+		confirmButtonText:'Listo',
+		footer:'<a class="footer_de_jv" href="../index.html">REGRESAR A LA PAGINA DE INICIO</a>',
+		backdrop:true,
+		timer: 4000,
+		timerProgressBar:true,
+		toast:false,
+		position:'center',
+		allowOutsideClick:false,
+		allowEscapeKey:false,
+		allowEnterKey:false,
+		stopKeydownPropagation:false
 
+	 })
 
+	
+ }
