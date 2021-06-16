@@ -54,7 +54,7 @@ const validarFormulario = (e) => {
 	
 			document.querySelector('#grupo_correo .formulario__input-error').classList.add('formulario__input-error-activo');
 
-		campos['correo'] = false;	
+			campos['correo'] = false;	
 		}
 		break;
 
@@ -82,8 +82,6 @@ const validarFormulario = (e) => {
 	}
 }
 
-	
-
 inputs.forEach((input) =>{
 	input.addEventListener('keyup',validarFormulario);
 	input.addEventListener('blur',validarFormulario);
@@ -99,4 +97,5 @@ e.preventDefault();
 	}
 
 });
+
 
