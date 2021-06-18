@@ -75,110 +75,111 @@
     </h2>
 </div>
 
+
+
+
+
+
 <main>
 
-   <form class="fomulario" id="formulario">  
-<!-- nombre de usuario -->
-    <div class="formulario_grupo"  id="grupo_nombre">
-                <label for="nombre" class="formulario__label">Nombre:</label>  
-        <div class="formulario__grupo-input">
-                <input type="text" class="formulario__input" name="nombre" id="nombre" placeholder="ingrese su nombre aqui">   
-                <i class="formulario__validacion-estado fas fa-times-circle"></i>        
-         </div>     
-                 <p class="formulario__input-error"><b>Puede contener solo letras</b></p>
-         
-    </div>
+    <form class="fomulario" id="formulario">  
+ <!-- nombre de usuario -->
+     <div class="formulario_grupo"  id="grupo_nombre">
+                 <label for="nombre" class="formulario__label">Nombre:</label> 
+                  
+         <div class="formulario__grupo-input">
+                 <input type="text" class="formulario__input" name="nombre" id="nombre" placeholder="ingrese su nombre aqui">   
+                 <i class="formulario__validacion-estado fas fa-times-circle"></i>        
+          </div>     
+                  <p class="formulario__input-error"><b>Puede contener solo letras</b></p>
+          
+     </div>
+ 
+ 
+ <!-- correo electronico --> 
+ 
+       
+ <div class="formulario_grupo" id="grupo_correo">
+     <label for="correo" class="formulario_label">correo:</label>  
+ <div class="formulario__grupo-input">
+     <input type="text" class="formulario__input" name="correo" id="correo" placeholder="correo@example.com">   
+     <i class="formulario__validacion-estado fas fa-times-circle"></i>        
+ </div>     
+      <p class="formulario__input-error"><b>Puede contener solo puntos,numeros,letras,guion</b></p>
+ 
+ </div>
+ 
+ 
+ 
+ <!-- comentario -->
+     <div class="primera_division" id="Formulario_comentario">
+             <textarea name="comentario" id="comentario" cols="80" rows="20 "></textarea>
+             <p class="formulario__input-error" id="comentario_exito"></p>
+     </div>
+ 
+ 
+ 
+  <!-- acepto terminos y condiciones -->
+     <div class="formulario__grupo" id="grupo__terminos">
+         <label class="formulario__label">
+             <input type="checkbox" class=formulario__checkbox" name="terminos" id="terminos" onclick="acepto()">
+         Acepto los terminos y condiciones
+         </label>
+     </div>
+ 
+     <div class="formulario__mensaje" id="formulario__mensaje">
+         <p><i class="fas fa-exclamation-triangle"></i><b>Error:</b>Por favor rellena el formulario correctamente</p>
+     </div>
+ 
+ 
+ 
+                      <!-- enviar el formulario -->
+ 
+                      <div class="formulario__grupo formulario__grupo-btn-enviar">
+                         <button type="submit" class="formulario__btn" onclick="enviar()">
+                             Enviar
+                         </button>
+                         
+                     </div>
+ 
+     </form>
+ </main>
 
-
-<!-- correo electronico --> 
-
-      
-<div class="formulario_grupo" id="grupo_correo">
-    <label for="correo" class="formulario_label">correo:</label>  
-<div class="formulario__grupo-input">
-    <input type="text" class="formulario__input" name="correo" id="correo" placeholder="correo@example.com">   
-    <i class="formulario__validacion-estado fas fa-times-circle"></i>        
-</div>     
-     <p class="formulario__input-error"><b>Puede contener solo puntos,numeros,letras,guion</b></p>
-
-</div>
-
-
-
-<!-- comentario -->
-    <div class="primera_division" id="Formulario_comentario">
-            <textarea name="comentario" id="comentario" cols="80" rows="20 "></textarea>
-            <p class="formulario__input-error" id="comentario_exito"></p>
-    </div>
-
-
-
- <!-- acepto terminos y condiciones -->
-    <div class="formulario__grupo" id="grupo__terminos">
-        <label class="formulario__label">
-            <input type="checkbox" class=formulario__checkbox" name="terminos" id="terminos" onclick="acepto()">
-        Acepto los terminos y condiciones
-        </label>
-    </div>
-
-    <div class="formulario__mensaje" id="formulario__mensaje">
-        <p><i class="fas fa-exclamation-triangle"></i><b>Error:</b>Por favor rellena el formulario correctamente</p>
-    </div>
-
-
-
-                     <!-- enviar el formulario -->
-
-                     <div class="formulario__grupo formulario__grupo-btn-enviar">
-                        <button type="submit" class="formulario__btn" onclick="enviar()">
-                            Enviar
-                        </button>
-                        
-                    </div>
-
-    </form>
-</main>
-
-
-
-
-<footer>
+ <footer>
 
 
     <div class="terminando">
-       <a href="#"><img src="../IMAGENES TOCSAC/principal.jpg.png" class="imagenfinal" height="170px" width="500px"></a>  
+       <a href="../index.html"><img src="../IMAGENES TOCSAC/logo prueba.png" class="imagenfinal" height="170px" width="500px"></a>  
 
        <table>
-           
            <tr>
                <th>
-           <h2 class="terminando1">
-              <a href="https://api.whatsapp.com/send?phone=51949462263" target="_blank"> WhathsApp:</a>
-           </h2>
-           <p class="papa1">
-               <a href="https://api.whatsapp.com/send?phone=51949462263" target="_blank"><i class="fab fa-whatsapp"></i> 949462263</a>
-           </p>
+                    <h2 class="terminando1">
+                        WhathsApp:
+                    </h2>
+                    <p class="papa1">
+                        <a href="https://api.whatsapp.com/send?phone=51949462263" target="_blank"><i class="fab fa-whatsapp"></i> 949462263</a>
+                    </p>
                </th>
            
                <th>
                    <h2 class="terminando2">
-                       <a href="https://www.facebook.com/empresatocsactocache/" target="_blank">Facebook:</a>
+                       Facebook:
                    </h2> 
                    <p class="papa2">
-                       <a href="https://www.facebook.com/empresatocsactocache/" target="_blank"><i class="fab fa-facebook-square"></i> TOCSAC</a>
-                      
-                   </p>              
-              </th>
-                   
-       </table>
-
-
-           <p class="fin"  >
+                        <a href="https://www.facebook.com/empresatocsactocache/" target="_blank" ><i class="fab fa-facebook-square"></i> Facebook</a>
+                   </p>
+                </th>
+            </tr>
+        </table>
+            <p class="fin">
              &copy;  Copyright by Hackers del Bicentenario
            </p>
-      
     </div>
 </footer>
+
+
+
 
 
 

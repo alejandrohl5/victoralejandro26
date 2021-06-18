@@ -1,3 +1,8 @@
+
+
+
+
+
 const formulario = document.getElementById('formulario');
 
 const inputs = document.querySelectorAll('#formulario input');
@@ -25,7 +30,7 @@ const validarFormulario = (e) => {
 		campos['nombre'] = true;
 		} else {
 			document.getElementById('grupo_nombre').classList.add('formulario__grupo-incorrecto');
-			document.getElementById('grupo_nombre').classList.remove('formulario__grupo-correcto');
+			document.getElementById('grupo_nombre').classList.remove('formulario__grupo-correcto');csa 
 			document.querySelector('#grupo_nombre i').classList.add('fa-times-circle');
 			document.querySelector('#grupo_nombre i').classList.remove('fa-check-circle');
 	
@@ -123,3 +128,6 @@ formulario.addEventListener('submit',(e) => {
 		
 	}
  
+
+
+
