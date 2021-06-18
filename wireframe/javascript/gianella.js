@@ -43,7 +43,7 @@ const validarFormulario = (e) => {
 			document.getElementById('grupo_correo').classList.add('formulario__grupo-correcto');
 			document.querySelector('#grupo_correo i').classList.add('fa-check-circle');
 			document.querySelector('#grupo_correo i').classList.remove('fa-times-circle');
-			document.querySelector('#grupo_correo .formulario__input-error-activo');
+			document.querySelector('#grupo_correo .formulario__input-error').classList.remove('formulario__input-error-activo');
 			campos['correo'] = true;
 		} else {
 			document.getElementById('grupo_correo').classList.remove('formulario__grupo-correcto');
@@ -99,7 +99,7 @@ function enviar()
 		icon:'success',
 		background:'white',
 		confirmButtonText:'listo',
-		footer:'<a class="footer_de_jv" href="./index.html">REGRESAR A LA PAGINA DE INCIO</a>',
+		footer:'<a class="footer_de_jv" href="../index.html">REGRESAR A LA PAGINA DE INCIO</a>',
 		backdrop:true,
 		timer:5000,
 		timerProgressBar:true,
