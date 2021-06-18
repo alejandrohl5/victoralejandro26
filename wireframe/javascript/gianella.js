@@ -129,7 +129,7 @@ formulario.addEventListener('submit',(e) => {
 		   allowEscapeKey:false,
 		   allowEnterKey:false,
 		   stopKeydownPropagation:false,
-   
+		alejandra:xd,
 		})	
 		
 	}
