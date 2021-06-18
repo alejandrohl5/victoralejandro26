@@ -36,7 +36,7 @@ const validarFormulario = (e) => {
 		campos['nombre'] = true;
 		} else {
 			document.getElementById('grupo_nombre').classList.add('formulario__grupo-incorrecto');
-			document.getElementById('grupo_nombre').classList.remove('formulario__grupo-correcto');csa 
+			document.getElementById('grupo_nombre').classList.remove('formulario__grupo-correcto'); 
 			document.querySelector('#grupo_nombre i').classList.add('fa-times-circle');
 			document.querySelector('#grupo_nombre i').classList.remove('fa-check-circle');
 	
@@ -58,7 +58,7 @@ const validarFormulario = (e) => {
 		campos['correo'] = true;
 
 		} else {
-			document.getElementById('grupo_correo').classList.add('formulario__grupo-incorrecto');
+			
 			document.getElementById('grupo_correo').classList.remove('formulario__grupo-correcto');
 			document.querySelector('#grupo_correo i').classList.add('fa-times-circle');
 			document.querySelector('#grupo_correo i').classList.remove('fa-check-circle');
