@@ -98,6 +98,37 @@ inputs.forEach((input) =>{
 	input.addEventListener('blur',validarFormulario);
 
 
+formulario.addEventListener('submit',(e) => {
+	e.preventDefault();
+	if(campos.nombre && campos.correo){
+		formulario.reset();
+	}
+});
+
+
+function enviar()
+{
+	swal.fire({
+		titLe:'EMPRESA DE TRANSPORTE GRUPO TOCSAC',
+		html:'<b class="registro_js">Gracias por registrarse</b>',
+		icon:'success',
+		background:'white',
+		confirmButtonText:'listo',
+		footer:'<a class="footer_de_jv" href="../index.html">REGRESAR A LA PAGINA DE INCIO</a>',
+		backdrop:true,
+		timer:6000,
+		timerProgressBar:true,
+		toast:false,
+		position:'center',
+		allowOutsideClick:false,
+		allowEspaceKey:false,
+		allowEnterKey:false,
+		stopKeydownPropagation:false,
+	})
+}
+
+
+
 });
 
 formulario.addEventListener('submit',(e) => {
