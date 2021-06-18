@@ -101,7 +101,7 @@ function enviar()
 		confirmButtonText:'listo',
 		footer:'<a class="footer_de_jv" href="../index.html">REGRESAR A LA PAGINA DE INCIO</a>',
 		backdrop:true,
-		timer:5000,
+		timer:6000,
 		timerProgressBar:true,
 		toast:false,
 		position:'center',
