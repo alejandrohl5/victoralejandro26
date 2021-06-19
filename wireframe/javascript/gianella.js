@@ -3,12 +3,6 @@
 
 
 
-
-
-
-
-
-
 const formulario = document.getElementById('formulario');
 
 const inputs = document.querySelectorAll('#formulario input');
@@ -31,7 +25,7 @@ const validarFormulario = (e) => {
 			document.getElementById('grupo_nombre').classList.add('formulario__grupo-correcto');		
 			document.querySelector('#grupo_nombre i').classList.add('fa-check-circle');
 			document.querySelector('#grupo_nombre i').classList.remove('fa-times-circle');
-			document.querySelector('#grupo_nombre .formulario__input-error').classList.remove('formulario__input-error-activo');
+			document.querySelector('#grupo_nombre .formulario_input-error').classList.remove('formulario_input-error-activo');
 
 		campos['nombre'] = true;
 		} else {
@@ -40,7 +34,7 @@ const validarFormulario = (e) => {
 			document.querySelector('#grupo_nombre i').classList.add('fa-times-circle');
 			document.querySelector('#grupo_nombre i').classList.remove('fa-check-circle');
 	
-			document.querySelector('#grupo_nombre .formulario__input-error').classList.add('formulario__input-error-activo');
+			document.querySelector('#grupo_nombre .formulario_input-error').classList.add('formulario_input-error-activo');
 
 		campos['nombre'] = false;
 			
@@ -53,7 +47,7 @@ const validarFormulario = (e) => {
 			document.getElementById('grupo_correo').classList.add('formulario__grupo-correcto');		
 			document.querySelector('#grupo_correo i').classList.add('fa-check-circle');
 			document.querySelector('#grupo_correo i').classList.remove('fa-times-circle');
-			document.querySelector('#grupo_correo .formulario__input-error').classList.remove('formulario__input-error-activo');
+			document.querySelector('#grupo_correo .formulario_input-error').classList.remove('formulario_input-error-activo');
 
 		campos['correo'] = true;
 
@@ -63,7 +57,7 @@ const validarFormulario = (e) => {
 			document.querySelector('#grupo_correo i').classList.add('fa-times-circle');
 			document.querySelector('#grupo_correo i').classList.remove('fa-check-circle');
 	
-			document.querySelector('#grupo_correo .formulario__input-error').classList.add('formulario__input-error-activo');
+			document.querySelector('#grupo_correo .formulario_input-error').classList.add('formulario_input-error-activo');
 
 			campos['correo'] = false;	
 		}
@@ -75,7 +69,7 @@ const validarFormulario = (e) => {
 			document.getElementById('grupo_terminos').classList.add('formulario__grupo-correcto');		
 			document.querySelector('#grupo_terminos i').classList.add('fa-check-circle');
 			document.querySelector('#grupo_terminos i').classList.remove('fa-times-circle');
-			document.querySelector('#grupo_terminos .formulario__input-error').classList.remove('formulario__input-error-activo');
+			document.querySelector('#grupo_terminos .formulario_input-error').classList.remove('formulario_input-error-activo');
 
 		campos['terminos'] = true;
 		} else {
@@ -84,7 +78,7 @@ const validarFormulario = (e) => {
 			document.querySelector('#grupo_terminos i').classList.add('fa-times-circle');
 			document.querySelector('#grupo_terminos i').classList.remove('fa-check-circle');
 	
-			document.querySelector('#grupo_terminos .formulario__input-error').classList.add('formulario__input-error-activo');
+			document.querySelector('#grupo_terminos .formulario_input-error').classList.add('formulario_input-error-activo');
 
 		campos['terminos'] = false;
 		}
@@ -104,30 +98,6 @@ formulario.addEventListener('submit',(e) => {
 		formulario.reset();
 	}
 });
-
-
-function enviar()
-{
-	swal.fire({
-		titLe:'EMPRESA DE TRANSPORTE GRUPO TOCSAC',
-		html:'<b class="registro_js">Gracias por registrarse</b>',
-		icon:'success',
-		background:'white',
-		confirmButtonText:'listo',
-		footer:'<a class="footer_de_jv" href="../index.html">REGRESAR A LA PAGINA DE INCIO</a>',
-		backdrop:true,
-		timer:7000,
-		timerProgressBar:true,
-		toast:false,
-		position:'center',
-		allowOutsideClick:false,
-		allowEspaceKey:false,
-		allowEnterKey:false,
-		stopKeydownPropagation:false,
-	})
-}
-
-
 
 });
 
@@ -160,13 +130,10 @@ formulario.addEventListener('submit',(e) => {
 		   allowEscapeKey:false,
 		   allowEnterKey:false,
 		   stopKeydownPropagation:false,
-		alejandra:xd,
+		
 		})	
 		
 	}
- 
-
-
 
 
  
