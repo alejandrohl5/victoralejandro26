@@ -95,12 +95,6 @@ font-size: 30px;
     background: #fbc531;
 }
 
-.navegacion {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0px;
-}
-
 .enlace {   
     margin-left: 5%;
     margin-right: 5%;
@@ -109,8 +103,6 @@ font-size: 30px;
     padding: 0px;
     background: black;
 }
-
-
 
 
 /* tercer menu */
@@ -330,12 +322,8 @@ margin-right: 15em;
 
 /*pie de pagina */
 
-footer {
     
-    background: black;
-    margin-top: 150px;
-    color: white;
-}
+    
  
 .imagenfinal {
  
@@ -418,25 +406,189 @@ footer {
 
 
 
+/* modificación */
 
 
 
 
 
+.espacio_header{
+    border: 3px groove rgb(138, 129, 129);
+    margin-top: 20px;
+}
+
+.reseña_historia{
+    margin-top: 20px;
+    margin-right: 700px;
+    margin-left: 100px;
+}
+
+.parrafo_reseña{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+
+.titulo_historia{
+margin-left: 300px;
+margin-right: 900px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-family: georgia;
+}
+
+.imagen_1_index{
+    width: 400px;
+    height: 400px;
+margin-right: 200px;
+float: right;
+
+}
+
+.contentido_imagen_portada{
+    width: 1898px;
+    height: 500px;
+    margin: auto;
+    margin-top: 20px;
+  
+    background-size: 100% 100%;
+    animation: animacion 10s infinite alternate ease;
+}
+
+@keyframes animacion{
+    0%,15%{background-image: url(/IMAGENES\ TOCSAC/portada.jpeg);
+        opacity: 1;
+    }
+    16%,19%{
+        opacity: 0.1;
+    }
+    20%,45%{background-image: url(/IMAGENES\ TOCSAC/llama.jpeg);
+        opacity: 1;
+    }
+    46%,49%{
+        opacity: 0.1;
+    }
+    50%,70%{background-image: url(/IMAGENES\ TOCSAC/imagen23.jpeg);
+        opacity: 1;
+    }
+    71%,74%{opacity: 0.1;
+    }
+    75%,90%{background-image: url(/IMAGENES\ TOCSAC/imagen22.jpeg);
+        opacity: 1;
+    }
+    91%,94%{opacity: 0.1;
+    }
+    95%,100%{background-image: url(/IMAGENES\ TOCSAC/TOCSAC.jpeg);
+        opacity:1;
+    }
+}
 
 
 
 
 
+/* articulos */
+
+.contenedor_1
+{
+    margin-right: 1350px;
+    margin-left: 100px;
+    margin-top: 60px;
+}
+
+.contenedor_2{
+    margin-right: 700px;
+    margin-left: 700px;
+    margin-top: -150px;
+}
 
 
 
+.division_video_presentacion{
+    margin-left: 50px;
+    margin-top: 100px;
+}
+
+.video_presentacion{
+    width: 1200px;
+    height: 500px;
+}
+
+.division_imagen_referencia{
+    margin-left: 1250px;
+    margin-right: 190px;
+}
+
+.imagen_referencia{
+    width: 400px;
+    height: 400px;
+    margin-top: -1000px;
+    margin-left: -1px;
+}
+
+.icono_1{
+margin-right:10px;
+color: blue ;
+}
 
 
+.contenedor_enlace{
+    text-align: center;
+    font-family: sans-serif;
+    margin-bottom: -2px;
+}
+.contenedor_enlace2{
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 10px;
+}
 
+.contenedor_enlace a{
+    color: brown;
+    text-decoration: none;
+    cursor: pointer;
+}
 
+.contenedor_enlace2 a {
+    color: brown;
+    text-decoration: none;
+    cursor: pointer;
+}
 
+.contenedor_enlace2 :hover{
+    color: red;
+}
 
+.contenedor_enlace :hover{
+    color: red;
+}
 
+footer{
+    margin-top: 20px;
+    background: black;
+    color: white;
 
+}
 
+.texto_eslogan{
+    margin-right: 650px;
+    text-align: center;
+   
+    font-size: 50px; 
+    font-family: Georgia, 'Times New Roman', Times, serif;  
+}
+
+.contenedor_parrafo{
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+.contenedor_parrafo1{
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.contenedor_parrafo2 {
+    font-family: sans-serif;
+    font-size: 15px;
+}
