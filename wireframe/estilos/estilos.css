@@ -457,29 +457,29 @@ float: right;
 }
 
 @keyframes animacion{
-    0%,15%{background-image: url(/wireframe/IMAGENES\ TOCSAC/portada.jpeg);
+    0%,15%{background-image: url(/IMAGENES\ TOCSAC/portada.jpeg);
         opacity: 1;
     }
     16%,19%{
         opacity: 0.1;
     }
-    20%,45%{background-image: url(/wireframe/IMAGENES\ TOCSAC/llama.jpeg);
+    20%,45%{background-image: url(/IMAGENES\ TOCSAC/imagen23.jpeg);
         opacity: 1;
     }
     46%,49%{
         opacity: 0.1;
     }
-    50%,70%{background-image: url(/wireframe/IMAGENES\ TOCSAC/imagen23.jpeg);
+    50%,70%{background-image: url(/IMAGENES\ TOCSAC/imagen22.jpeg);
         opacity: 1;
     }
     71%,74%{opacity: 0.1;
     }
-    75%,90%{background-image: url(/wireframe/IMAGENES\ TOCSAC/imagen22.jpeg);
+    75%,90%{background-image: url(/IMAGENES\ TOCSAC/laguna.jpeg);
         opacity: 1;
     }
     91%,94%{opacity: 0.1;
     }
-    95%,100%{background-image: url(/wireframe/IMAGENES\ TOCSAC/TOCSAC.jpeg);
+    95%,100%{background-image: url(/IMAGENES\ TOCSAC/juanjui.jpeg);
         opacity:1;
     }
 }
