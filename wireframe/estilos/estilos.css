@@ -17,29 +17,50 @@ background:whitesmoke;
   
     border: 1px groove #fbc531;
     background: #000000;
-    position: sticky;
-    top: 0px;
 }
 
 .imagen {
     border: 1px solid black;
     margin: 15px 0px  1px 100px ;
-    width:500px;
+    width:400px;
 }
 
 /* menu con estilo  */
 table {
     float: right;
     margin-top: 100px;
-    margin-right: 120px;
+    margin-right: 200px;
 }
+
+    /* login */
+
+.login_registrarse{
+    background: yellowgreen;
+    color:#fff;
+    float: right;
+    margin-top: 100px;
+    margin-right: 100px;
+    text-decoration: none;
+    padding: 3px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    border-radius: 3px;
+}
+.icono_encabezado{
+    margin-left: 10px;
+}
+
+.login_registrarse:hover {
+    background: green;
+}
+
+/* tabla */
    
 .tabla a {
     margin: 30px;
     padding: 9px;
     color:white;
     font-family:sans-serif;
-    
     font-size: 20px;
     border: 3px solid black;
     
