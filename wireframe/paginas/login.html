@@ -25,7 +25,7 @@
         <h3 class="contrasena">CONTRASEÑA</h3>
         <input type="password" id="contrasena" placeholder="Ingrese su contraseña">
 
-        <button id="boton_registro" class="boton_registro boton_activo">REGISTRARSE</button> <br>
+        <button type="submit" id="boton_registro" class="boton_registro boton_activo">REGISTRARSE</button> <br>
 
         <div class="no">
           <a href="#">Olvidaste tu contraseña?</a> <br>
@@ -42,6 +42,35 @@
 
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
 <script src="../javascript/login.js"></script>
+
+
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+     <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-auth.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBYdDnzsoImhEdv4MVyvrKMsmyoq3wQFrU",
+    authDomain: "alejandrohl5.firebaseapp.com",
+    projectId: "alejandrohl5",
+    storageBucket: "alejandrohl5.appspot.com",
+    messagingSenderId: "845360429493",
+    appId: "1:845360429493:web:521460e13f1dd0cd1941fc"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+
+  const auth = firebase.auth();
+
+
+</script>
+
 
 </body>
 </html>
