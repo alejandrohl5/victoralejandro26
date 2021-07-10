@@ -1,15 +1,15 @@
-body {
+body{
     margin: 0px;
     padding: 0px;
-background: url(/wireframe/IMAGENES\ TOCSAC/principal.jpg.png) no-repeat center top;
-background-size: cover;
-font-family: sans-serif;
-height: 100vh;
+    background: url(/wireframe/IMAGENES\ TOCSAC/tropical.jpeg) no-repeat center top ;
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
 }
 
 .login-box{
-    width: 320px;
-    height: 420px;
+    width: 400px;
+    height: 440px;
     background: #000;
     color: #fff;
     top: 50%;
@@ -19,6 +19,7 @@ height: 100vh;
     box-sizing: border-box;
     padding: 70px 30px;
 }
+
 .login-box .avatar{
     width: 100px;
     height: 100px;
@@ -35,23 +36,27 @@ height: 100vh;
     font-size: 22px;
 }
 
-
-.login-box label {
+.contrasena{
     margin: 0px;
     padding: 0px;
     font-weight: bold;
     display: block;
-
 }
 
+.correo {
+    margin: 0px;
+    padding: 0px;
+    font-weight: bold;
+    display: block;
+}
 
-.login-box input{
+.login-box input {
     width: 100%;
     margin-bottom: 20px;
-
 }
 
-.login-box input[type = "text"],
+
+.login-box input[type = "email"],
 .login-box input[type = "password"] {
     border: none;
     border-bottom: 1px solid #fff;
@@ -62,16 +67,24 @@ height: 100vh;
     font-size: 16px;
 }
 
-.login-box input[type = "submit"] {
+.boton_registro {
     border: none;
-    outline: none;
     height: 40px;
-    background: rgb(228, 32, 32);
-    color: #fff;
+    background: rgb(219, 5, 5);
+    color: #000;
     font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     border-radius: 20px;
     cursor: pointer;
+    margin-left: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 3px;
+    padding-bottom: 5px;
+}
+
+.no {
+    margin-top: 50px;
 }
 
 .login-box a {
@@ -81,7 +94,61 @@ height: 100vh;
     color: darkgrey;
     cursor: pointer;
 }
+ .no a {
+     color: darkgrey;
+ }
 
-.login-box a:hover {
-    color: #fff;
-}
+ .no a:hover {
+     color: #fff;
+ }
+
+ .boton_activo:hover {
+    background: rgb(228, 32, 32);
+    animation: boton 2s infinite alternate ease;
+ }
+
+ @keyframes boton {
+     0%{background: red;}
+     10%{background: green;}
+     20%{background: yellow;}
+     30%{background: blue;}
+     40%{background: orange;}
+     50%{background: pink;}
+     60%{background: greenyellow;}
+     70%{background: darkmagenta;}
+     80%{background: yellowgreen;}
+     90%{background: lightskyblue;}
+     100%{background: orchid;}
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

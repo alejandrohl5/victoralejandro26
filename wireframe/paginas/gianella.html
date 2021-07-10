@@ -76,7 +76,7 @@
 </section>
 <div class="contacto">
     <h2>
-        CONTÁCTANOS     
+        Comentario o sugerencia     
     </h2>
 </div>
 
@@ -139,7 +139,7 @@
                       <!-- enviar el formulario -->
  
                       <div class="formulario__grupo formulario__grupo-btn-enviar">
-                         <button type="submit" class="formulario__btn" onclick="enviar()">
+                         <button type="submit" id="boton_formulario" class="formulario__btn" onclick="enviar()">
                              Enviar
                          </button>
                          
@@ -185,9 +185,54 @@
 
 
 
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+     <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-firestore.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBYdDnzsoImhEdv4MVyvrKMsmyoq3wQFrU",
+    authDomain: "alejandrohl5.firebaseapp.com",
+    projectId: "alejandrohl5",
+    storageBucket: "alejandrohl5.appspot.com",
+    messagingSenderId: "845360429493",
+    appId: "1:845360429493:web:521460e13f1dd0cd1941fc"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <script src="../javascript/gianella.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script> 
 <script src="https://kit.fontawesome.com/0e65fc2f8c.js" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+
+
 
 </body>
 </html>

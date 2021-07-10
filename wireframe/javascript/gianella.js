@@ -25,7 +25,7 @@ const validarFormulario = (e) => {
 			document.getElementById('grupo_nombre').classList.add('formulario__grupo-correcto');		
 			document.querySelector('#grupo_nombre i').classList.add('fa-check-circle');
 			document.querySelector('#grupo_nombre i').classList.remove('fa-times-circle');
-			document.querySelector('#grupo_nombre .formulario_input-error').classList.remove('formulario_input-error-activo');
+			document.querySelector('#grupo_nombre .formulario_input-error').classList.remove('formulario_input-error');
 
 		campos['nombre'] = true;
 		} else {
@@ -136,6 +136,40 @@ formulario.addEventListener('submit',(e) => {
 	}
 
 
+
+
+
+
+
+const db = firebase.firestore();
+
+
+const taskform = document.getElementById('formulario');
+
+const saveTask = (nombre, correo, comentario) =>
+db.collection('registro').doc().set({
+    nombre,
+    correo,
+	comentario
+});
+
+
+taskform.addEventListener('submit', async (e) =>{
+    e.preventDefault();
+
+
+   const nombre = formulario['nombre']; 
+    const correo = formulario['correo']; 
+	const comentario = formulario['comentario']; 
+
+ await saveTask(nombre.value, correo.value, comentario.value);
+
+    taskform.reset();
+    correo.focus();
+
+    console.log(nombre, correo, comentario)
+  
+})
  
 
 
