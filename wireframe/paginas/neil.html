@@ -114,6 +114,17 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
     <main>
 
         <form class="fomulario" id="formulario">  
@@ -145,29 +156,44 @@
      
      
      
-     <!-- comentario -->
+     <!-- numero de celular -->
     <div class="primera_division" id="Formulario_comentario">
              <label for="correo" class="formulario_label">Número de celular:</label>  
     <div class="formulario__grupo-input">
-             <input type="text" class="formulario__input" name="numerodecelular" id="numerodecelular" placeholder="Ingrese nu número aquí">   
+             <input   type="text" class="formulario__input"  name="numerodecelular" id="numeroDeCelular" placeholder="Ingrese nu número aquí">   
              <i class="formulario__validacion-estado fas fa-times-circle"></i> 
     </div>
-     
-     
+
+    </div>
      
       
      
      
-     
                           <!-- enviar el formulario -->
-     
+
+
+
+
+
+
                           <div class="formulario__grupo formulario__grupo-btn-enviar">
-                             <button type="submit" id="boton_formulario" class="formulario__btn" onclick="enviar()">
-                                 Enviar
-                             </button>
-                             
+                            <label class="sorteo_destino">
+
+                               
+            
+                                <input type="file" id="sorteo" name="sorteo"  placeholder="Sube tu foto" class="registro_none">
+                             <img class="icono_descarga" src="../IMAGENES TOCSAC/iconoTocsac.jpg" alt="icono_descarga">
+                            <p class="subir_foto"><b><em>Envíanos tu foto </em></b></p> 
+                            </label>
                          </div>
-     
+
+
+                         <div class="formulario__grupo formulario__grupo-btn-enviar">
+                            <button id="boton_formulario" class="formulario__btn">
+                                Enviar
+                            </button>                                  
+                        </div>
+
          </form>
      </main>
 
@@ -211,5 +237,62 @@
             var opciones="toolbar=no,location=no,direswalctories=no,status=no,menubar=no,scrollbars=no,resizable=yes,width=650,height=650,top=100,left=400";
             window.open('https://fb.watch/6cZNJs-6AJ/','',opciones);
     </script>
+
+
+
+
+    
+
+
+
+
+
+
+
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+     <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-firestore.js"></script>
+     <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-storage.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBYdDnzsoImhEdv4MVyvrKMsmyoq3wQFrU",
+    authDomain: "alejandrohl5.firebaseapp.com",
+    projectId: "alejandrohl5",
+    storageBucket: "alejandrohl5.appspot.com",
+    messagingSenderId: "845360429493",
+    appId: "1:845360429493:web:521460e13f1dd0cd1941fc"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+
+
+
+
+
+
+
+
+
+    <script src="../javascript/neil.js"></script>
+
+
+
+
+
+
+
+
+
+
+
 </body>
 </html>

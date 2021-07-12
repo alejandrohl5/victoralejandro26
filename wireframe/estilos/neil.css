@@ -184,3 +184,166 @@ footer
 {
     border-radius: 0px 0px 50px 50px;
 }
+
+.contacto{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+main{
+    text-align: center;
+}
+
+
+.formulario{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.formulario__label{
+    display: block;
+    font-weight:700;
+    padding: 10px;
+    cursor: pointer;
+}
+formulario__grupo-input{
+    position: relative;
+}
+
+.formulario__input{
+    width: 35%;
+    background: #fff;
+    border:3px solid transparent;
+    border-radius: 3px;
+    height: 45px;
+    line-height: 45px;
+    padding: 0 40 0 10px;
+    transition: .3s ease all;
+}
+.formulario__input:focus{
+    border:3px solid #0075ff;
+    outline: none;
+    box-shadow: 3px 0px 30px rgb(31, 10, 10);
+}
+
+.formulario__input-error {
+    font-size: 12px;
+    margin-bottom: 0;
+    display: none;
+}
+
+.formulario__input-error-activo{
+    display: block;
+}
+
+.formulario__validacion-estado{
+
+    position: absolute;
+    right: 34%;
+    font-size: 30px;
+    margin-top: 10px;
+   opacity: 0;
+    z-index: 100;
+}
+
+.primera_division{
+    margin-top: 40px;
+}
+
+.formulario__mensaje {
+border-radius: 3px;
+background: #f66068;
+padding: 10px;
+margin-left: 45em;
+margin-right: 45em;
+display: none;
+}
+
+.formulario__mensaje-activo{
+    display:block;
+}
+
+.registro_none{
+    display: none;
+}
+
+
+.formulario__btn{
+    height: 45px;
+    line-height: 45px;
+    width: 10%;
+    background: black;
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: .1s ease all;
+}
+
+.formulario__btn:hover{
+    box-shadow: 3px 0px 30px rgb(126, 122, 122);
+}
+
+.formulario__mensaje-exito{
+    font-size: 14px;
+    color: #119200;
+    display: none;
+}
+
+.formulario__mensaje-exito-activo{
+    display: block;
+}
+ 
+
+/* validacion*/
+
+.formulario__grupo-correcto .formulario__validacion-estado{
+
+color: #1ed12d;
+opacity: 1;
+}
+
+.formulario__grupo-incorrecto .formulario__label{
+    color: #bb2929;
+}
+
+.formulario__grupo-incorrecto .formulario__validacion-estado{
+    color: #bb2929;
+    opacity: 1;  
+}
+
+.formulario__grupo-incorrecto .formulario__input {
+    border: 3px solid #bb2929;
+}
+
+
+.form_enviar{
+    border: 1px solid black;
+
+}
+
+.registro_sorteo{
+    color: #bb2929;
+}
+
+.subir_foto{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+    color: #000000;
+
+}
+
+.subir_foto:hover {
+    color: #7a7575;
+}
+
+.icono_descarga{
+    width: 100px;
+    margin-top: 40px;
+    cursor: pointer;
+    color: brown;
+
+}

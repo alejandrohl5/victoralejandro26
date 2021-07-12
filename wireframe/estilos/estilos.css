@@ -35,23 +35,24 @@ table {
     /* login */
 
 .login_registrarse{
-    background: yellowgreen;
+    background: none;
     color:#fff;
     float: right;
     margin-top: 100px;
     margin-right: 100px;
     text-decoration: none;
     padding: 3px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: sans-serif;
     font-size: 20px;
     border-radius: 3px;
 }
 .icono_encabezado{
     margin-left: 10px;
+    padding: 5px;
 }
 
 .login_registrarse:hover {
-    background: green;
+    background: #fbc531;
 }
 
 /* tabla */

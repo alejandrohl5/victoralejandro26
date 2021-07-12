@@ -1,14 +1,73 @@
-/* alejandro.htlm */
+/* mila.htlm */
 * {
     margin: 0px;
     padding: 0px;
 }
 /* cuerpo */
+
 body {
 background:whitesmoke;
     border: 0px solid black;
     margin: 0px;
 }
+
+.victorino {
+width: 1300px;
+height: 500px;
+margin: auto;
+margin-top: 90px;
+background-size: 100% 100%;
+
+animation: kennia 10s infinite alternate ease;
+
+}
+
+@keyframes kennia{
+    0%,20%{background-image: url(/wireframe/IMAGENES\ TOCSAC/milagros2.jpeg);
+opacity: 1;
+    }
+
+21%,24%{
+    opacity: 0.1;
+}
+
+25%,45%{
+    background-image: url(/wireframe/IMAGENES\ TOCSAC/1.jpeg);
+    opacity: 1;
+}
+
+46%,49%{
+    opacity: 0.1;
+}
+
+50%,70%{
+    background-image: url(/wireframe/IMAGENES\ TOCSAC/milagros1.jpeg);
+    opacity: 1;
+}
+
+71%,74%{
+    opacity: 0.1;
+}
+
+75%,95%{
+    background-image: url(/wireframe/IMAGENES\ TOCSAC/milagros3.jpeg);
+    opacity: 1;
+}
+
+96%,100%{
+    opacity: 0.1;
+}
+
+
+}
+
+
+
+
+
+
+
+
 
 .division {
   
@@ -246,4 +305,4 @@ footer {
 
 
 
-/* fin de el index */
+/* fin de el index */   

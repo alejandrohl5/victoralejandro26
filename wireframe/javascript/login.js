@@ -5,12 +5,18 @@
      const correo = document.querySelector('#correo').value;
      const contrasena = document.querySelector('#contrasena').value;
 
+   
+     alert("BIENVENIDO!!!")
+     guardar.reset();
+
      auth
            .createUserWithEmailAndPassword(correo, contrasena)   
 
            .then(userCredential => {
-               console.log('hecho con exito');
-           })
 
- 
+               console.log('hecho con exito');
+
+           })
     })
+
+    
