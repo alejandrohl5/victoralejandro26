@@ -179,6 +179,87 @@ footer {
     color: white;
 }
 
+.donde_vamos {
+    text-align: center;
+    margin-top:  20px;
+    border: 1px solid black;
+}
+
+
+.fomulario_josue{
+    border: 1px solid black;
+    margin-right: 420px;
+}
+
+
+.boton_final {
+    border: 1px solid black;
+}
+
+.boton_estilo{
+    margin-left:1500px;
+    float: right;
+    margin-top: -22px;
+    margin-right: 455px;
+}
+
+.input_form{
+    float: right;
+    margin-top: 20px;
+    margin-right: 500px;
+    padding: 10px;
+}
+
+.input{
+    float: right;
+    margin-top: -22px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.menu_2{
+    float: right;
+    margin-top: -22px;
+    margin-top: 22px;
+}
+
+
+.menu_1{
+    float: right;
+    margin-top: -22px;
+    margin-top: 22px;
+}
+
+.menu_general{
+    margin-top: 40px;
+    
+}
+
+.selecion1{
+    padding-top: 13px;
+    padding-bottom: 10px;
+}
+
+.selecion2{
+    padding-top: 13px;
+    padding-bottom: 10px;
+    border: 1px solid black;
+}
+
+
+.boton_estilo{
+    margin-top: -43px;
+    padding-top: 13px;
+    padding-bottom:10px;                            
+    padding-left:2px;
+    padding-right: 4px;
+}
+
+
+
+
+
+
 
 
 
