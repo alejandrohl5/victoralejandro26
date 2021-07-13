@@ -17,6 +17,7 @@
                console.log('hecho con exito');
 
            })
+
+           window.location.replace("http://127.0.0.1:5500/wireframe/index.html");
     })
 
-    
