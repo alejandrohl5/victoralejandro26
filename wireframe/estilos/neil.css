@@ -55,8 +55,9 @@ font-size: 20px;
 .titulo {
     text-align: center;
     background:#fbc531 ;
-    padding: 1px;
+    padding: 0px;
     font-family: sans-serif;
+    margin-top: -25px;
 
 }
 
@@ -246,6 +247,24 @@ formulario__grupo-input{
     margin-top: 10px;
    opacity: 0;
     z-index: 100;
+}
+
+.tabla{
+    margin-right: 400px;
+}
+
+
+
+.enlace_neil img{
+    margin-left: 150px;
+    width: 350px;
+}
+
+
+
+.clase a{
+ 
+    margin-left: 80px;
 }
 
 .primera_division{

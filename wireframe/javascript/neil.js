@@ -5,11 +5,12 @@
 
     const taskform = document.getElementById('formulario');
     
-    const saveTask = (nombre, correo, numeroDeCelular) =>
+    const saveTask = (nombre, correo, numeroDeCelular, sorteo) =>
     db.collection('Sorteo').doc().set({
         nombre,
         correo,
-        numeroDeCelular
+        numeroDeCelular,
+        sorteo
     });
     
     
@@ -20,13 +21,15 @@
        const nombre = formulario['nombre']; 
         const correo = formulario['correo']; 
         const numeroDeCelular = formulario['numeroDeCelular']; 
-    
-     await saveTask(nombre.value, correo.value, numeroDeCelular.value);
+        const sorteo = formulario['sorteo']; 
+     
+
+     await saveTask(nombre.value, correo.value, numeroDeCelular.value, sorteo.value);
     
         taskform.reset();
         correo.focus();
     
-        console.log(nombre, correo, numeroDeCelular)
+        console.log(nombre, correo, numeroDeCelular, sorteo)
       
         alert("Gracias por participar");   
     })
