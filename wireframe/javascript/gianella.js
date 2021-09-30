@@ -33,7 +33,6 @@ const validarFormulario = (e) => {
 			document.getElementById('grupo_nombre').classList.remove('formulario__grupo-correcto'); 
 			document.querySelector('#grupo_nombre i').classList.add('fa-times-circle');
 			document.querySelector('#grupo_nombre i').classList.remove('fa-check-circle');
-	
 			document.querySelector('#grupo_nombre .formulario_input-error').classList.add('formulario_input-error-activo');
 
 		campos['nombre'] = false;

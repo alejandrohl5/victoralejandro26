@@ -479,7 +479,7 @@ float: right;
 }
 
 @keyframes animacion{
-    0%,15%{background-image: url(/wireframe/IMAGENES\ TOCSAC/portada.jpeg);
+    0%,15%{background-image: url(/wireframe/IMAGENES\ TOCSAC/laguna.jpeg);
         opacity: 1;
     }
     16%,19%{
@@ -496,12 +496,12 @@ float: right;
     }
     71%,74%{opacity: 0.1;
     }
-    75%,90%{background-image: url(/wireframe/IMAGENES\ TOCSAC/laguna.jpeg);
+    75%,90%{background-image: url(/wireframe/IMAGENES\ TOCSAC/juanjui.jpeg);
         opacity: 1;
     }
     91%,94%{opacity: 0.1;
     }
-    95%,100%{background-image: url(/wireframe/IMAGENES\ TOCSAC/juanjui.jpeg);
+    95%,100%{background-image: url(/wireframe/IMAGENES\ TOCSAC/selva.jpeg);
         opacity:1;
     }
 }
